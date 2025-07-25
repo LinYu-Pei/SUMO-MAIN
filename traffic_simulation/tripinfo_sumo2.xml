@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-06-29 01:08:51 by Eclipse SUMO GUI Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/home/paul/sumo_platform/testbed/testbed/traffic_simulation/new_osm.net.xml"/>
+        <route-files value="/home/paul/sumo_platform/testbed/testbed/traffic_simulation/incident_crash.rou.xml"/>
+        <additional-files value="/home/paul/sumo_platform/testbed/testbed/traffic_simulation/osm.poly.xml.gz,/home/paul/sumo_platform/testbed/testbed/traffic_simulation/tls.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="/home/paul/sumo_platform/testbed/testbed/traffic_simulation/tripinfo_sumo2.xml"/>
+    </output>
+
+    <time>
+        <end value="1000"/>
+    </time>
+
+    <traci_server>
+        <remote-port value="8814"/>
+    </traci_server>
+
+    <gui_only>
+        <gui-settings-file value="/home/paul/sumo_platform/testbed/testbed/traffic_simulation/osm.view.xml"/>
+        <start value="true"/>
+        <window-size value="800,500"/>
+        <window-pos value="820,10"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="trip_incident_1" depart="5.00" departLane=":661021430_4_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="8.00" arrivalLane=":661021430_4_0" arrivalPos="14.31" arrivalSpeed="6.21" duration="3.00" routeLength="9.21" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="1.65" rerouteNo="1" devices="tripinfo_trip_incident_1 routing_trip_incident_1" vType="ACCIDENT_CAR" speedFactor="1.06" vaporized=""/>
+    <tripinfo id="trip_incident_2" depart="8.00" departLane="51813043#10_0" departPos="5.10" departSpeed="0.00" departDelay="1.00" arrival="12.00" arrivalLane="51813043#10_0" arrivalPos="19.14" arrivalSpeed="8.46" duration="4.00" routeLength="14.04" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="2.47" rerouteNo="1" devices="tripinfo_trip_incident_2 routing_trip_incident_2" vType="ACCIDENT_CAR" speedFactor="0.94" vaporized=""/>
+</tripinfos>

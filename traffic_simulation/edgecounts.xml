@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Thu 01 Oct 2020 02:10:37 PM CEST by Eclipse SUMO netedit Version v1_7_0+0387-4c5c499899
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="../03_netedit/osm.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="../03_netedit/osm.net.xml"/>
+        <output.street-names value="true"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="false"/>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="true"/>
+    </pedestrian>
+
+    <netedit>
+        <data-files value="/home/kobo/dlr/SUMO2020/04_traffic.final/edgecounts.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<meandata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/meandata_file.xsd">
+    <interval id="fiveToSeven" begin="0.00" end="7200.00">
+        <edge id="324294400" entered="131"/>
+		<edge id="48769273#0" entered="470"/>
+		<edge id="506599431#3" entered="659"/>
+		
+		<edge id="449379856#1" entered="208"/>
+		<edge id="324294403#0" entered="356"/>
+		<edge id="158807855#2" entered="19"/>
+		<edge id="449379853#4" entered="200"/>
+		<edge id="449379870#1" entered="134"/>
+		<edge id="449379850#1" entered="189"/>
+		<edge id="816944388#0" entered="208"/>
+		<edge id="311359937#4" entered="176"/>
+		<edge id="311359937#22" entered="207"/>
+		<edge id="244421738#2" entered="215"/>
+		<edge id="413955653#3" entered="251"/>
+		<edge id="244421739#1" entered="199"/>
+		<edge id="37099791#0" entered="394"/>
+		<edge id="413955653#11" entered="536"/>		
+		
+		
+		<edge id="33072357#1" entered="487"/>	
+		<!-- <edge id="461206603#1" entered="147"/> -->
+		<edge id="461206603#1" entered="147"/>
+		<edge id="866318730#3" entered="199"/>
+		<edge id="866318728#1" entered="284"/>
+		<edge id="454931329#0" entered="227"/>
+		<edge id="252494919#1" entered="400"/>
+		<edge id="288354567#3" entered="286"/>
+		<edge id="311139734#7" entered="294"/>
+		<edge id="287735322#7" entered="350"/>
+		<edge id="160435117#2" entered="224"/>
+		<edge id="401628856" entered="223"/>
+		<edge id="404179546" entered="567"/>
+		<edge id="52907069#5" entered="304"/>
+		<edge id="311576785#1" entered="186"/>
+		<edge id="252398635#3" entered="339"/>
+		<edge id="911605211#2" entered="164"/>
+		
+		
+		<edge id="501772317#1" entered="327"/>
+		<edge id="252494932#3" entered="159"/>
+		<edge id="442790073#1" entered="240"/>
+		<edge id="326352590#1" entered="120"/>
+		<edge id="244618587#1" entered="129"/>
+		<edge id="75258707#11" entered="185"/>
+		<edge id="311576784#0" entered="260"/>
+		<edge id="311860250#13" entered="293"/>
+		<edge id="158964730#4" entered="263"/>
+		<edge id="23241824#3" entered="262"/>
+		<edge id="78380844#1" entered="338"/>
+		<edge id="287735321#6" entered="203"/>
+		<edge id="330327011#0" entered="203"/>
+		<edge id="313235564-AddedOffRampEdge" entered="196"/>
+		
+		
+		<edge id="158917944#5" entered="83"/>
+		<edge id="23759366#3" entered="128"/>
+		<edge id="313235565#8" entered="107"/>
+		<edge id="197557008#3-AddedOffRampEdge" entered="138"/>
+		<edge id="-330461417#7" entered="82"/>
+		<edge id="330461417#7" entered="72"/>
+		<edge id="-324294428#2" entered="51"/>
+		<edge id="324294428#1" entered="48"/>
+		<edge id="442788101#8" entered="61"/>
+		<edge id="-442788101#8" entered="97"/>
+		<edge id="'-324294428#7" entered="81"/>
+		<edge id="'324294428#7" entered="129"/>
+		<edge id="'449379866#1" entered="287"/>
+		<edge id="'48769264#1" entered="282"/>
+		<edge id="'311359943#4" entered="187"/>
+		
+		
+		<edge id="'23759709#2" entered="169"/>
+		<edge id="'23766386#9" entered="63"/>
+		<edge id="'-23766386#9" entered="13"/>
+		<edge id="'-244421761#1" entered="304"/>
+		<edge id="'244421761#1" entered="150"/>
+		<edge id="'244421756#3" entered="128"/>
+		<edge id="'24836054#3" entered="203"/>
+		<edge id="'730830604#1" entered="243"/>
+		<edge id="'730830603#0" entered="231"/>
+		<edge id="'98725125" entered="3"/>
+		<edge id="'330746961#1" entered="327"/>
+		<edge id="'28555492#0" entered="98"/>
+		<edge id="'330746961#8" entered="277"/>
+		<edge id="'599378886#1" entered="143"/>
+		<edge id="'311576780#1" entered="138"/>
+		
+		
+		<edge id="'1257895205#2" entered="133"/>
+		<edge id="'244120030#3" entered="197"/>
+		<edge id="'221195129#26" entered="137"/>
+		<edge id="'311576793#15" entered="150"/>
+		<edge id="'-26788202#7" entered="37"/>
+		<edge id="'26788202#7" entered="32"/>
+		<edge id="'288354565#4" entered="48"/>
+		<edge id="'62080957#0" entered="101"/>
+		<edge id="'300077506#1" entered="127"/>
+		<edge id="'137317907#1" entered="64"/>
+		<edge id="'45265806" entered="272"/>
+		
+		<!-- 18,179 -->
+      
+    </interval>
+</meandata>

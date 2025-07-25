@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-06-29 01:08:51 by Eclipse SUMO GUI Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/home/paul/sumo_platform/testbed/testbed/traffic_simulation/new_osm.net.xml"/>
+        <route-files value="/home/paul/sumo_platform/testbed/testbed/traffic_simulation/passenger.sampled.rou.xml"/>
+        <additional-files value="/home/paul/sumo_platform/testbed/testbed/traffic_simulation/osm.poly.xml.gz,/home/paul/sumo_platform/testbed/testbed/traffic_simulation/tls.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="/home/paul/sumo_platform/testbed/testbed/traffic_simulation/tripinfo_sumo1.xml"/>
+    </output>
+
+    <time>
+        <end value="1000"/>
+    </time>
+
+    <traci_server>
+        <remote-port value="8813"/>
+    </traci_server>
+
+    <gui_only>
+        <gui-settings-file value="/home/paul/sumo_platform/testbed/testbed/traffic_simulation/osm.view.xml"/>
+        <start value="true"/>
+        <window-size value="800,500"/>
+        <window-pos value="10,10"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="3" depart="3.00" departLane="449379869#5_0" departPos="5.10" departSpeed="0.00" departDelay="0.62" arrival="216.00" arrivalLane="-1238557272#1_0" arrivalPos="32.20" arrivalSpeed="12.90" duration="213.00" routeLength="1836.37" waitingTime="69.00" waitingCount="3" stopTime="0.00" timeLoss="113.51" rerouteNo="0" devices="tripinfo_3" vType="DEFAULT_VEHTYPE" speedFactor="1.08" vaporized=""/>
+</tripinfos>

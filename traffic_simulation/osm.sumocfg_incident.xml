@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-04-14 03:56:21 by Eclipse SUMO sumo Version 1.19.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <!-- <net-file value="osm.net.xml.gz"/> -->
+		<net-file value="new_osm.net.xml"/>
+        <value="passenger.sampled.rou.xml"/>
+        
+        <additional-files value="osm.poly.xml.gz,tls.xml"/>
+    </input>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+        <scale value="1"/>
+    </processing>
+	
+	<output>
+        <!-- <tripinfo-output value="/home/tim/thesis_experimentation/stats/barrier_stats_veh700_publish_frequency7s_tripinfo.xml"/> -->
+        <!-- <statistic-output value="/home/tim/thesis_experimentation/stats/barrier_stats_veh700_publish_frequency7s.xml"/> -->
+	</output>
+
+    <routing>
+		<routing-algorithm value="astar"/>
+        <device.rerouting.adaptation-steps value="18"/>
+        <device.rerouting.adaptation-interval value="10"/>
+		<!-- <device.rerouting.probability value="1"/> -->
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="osm.view.xml"/>
+    </gui_only>
+
+</configuration>
