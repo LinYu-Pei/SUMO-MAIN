@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared  -o mosquitto_payload_modification.so CMakeFiles/mosquitto_payload_modification.dir/mosquitto_payload_modification.c.o   -L/home/paul/sumo_platform/testbed/testbed/mosquitto-2.0.15_virtual 

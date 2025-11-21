@@ -1,0 +1,28 @@
+Integration method was set to 'ballistic', since a default action step length was specified.
+***Starting server on port 8813 ***
+Loading net-file from '/home/paul/sumo_platform/testbed/traffic_simulation/new_osm.net.xml' ... done (1432ms).
+Loading additional-files from '/home/paul/sumo_platform/testbed/traffic_simulation/osm.poly.xml.gz' ... done (35ms).
+Loading additional-files from '/home/paul/sumo_platform/testbed/traffic_simulation/tls.xml' ... done (0ms).
+Loading additional-files from '/home/paul/sumo_platform/testbed/traffic_simulation/detectors.add.xml' ... done (176ms).
+Loading route-files incrementally from '/home/paul/sumo_platform/testbed/traffic_simulation/ppassenger.sampled.rou.xml'
+Loading done.
+Simulation started with time: 0.00.
+Simulation ended at time: 75.00.
+Performance:
+ Duration: 179.29s
+ TraCI-Duration: 113.65s
+ Real time factor: 0.418314
+ UPS: 1044.887920
+Vehicles:
+ Inserted: 3066 (Loaded: 4001)
+ Running: 3064
+ Waiting: 935
+Statistics (avg of 2):
+ RouteLength: 649.50
+ Speed: 15.58
+ Duration: 43.00
+ WaitingTime: 3.00
+ TimeLoss: 18.74
+ DepartDelay: 0.50
+AStarRouter answered 402 queries and explored 3236.47 edges on average.
+AStarRouter spent 1.09s answering queries (2.71ms on average).

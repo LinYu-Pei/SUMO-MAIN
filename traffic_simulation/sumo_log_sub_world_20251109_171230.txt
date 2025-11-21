@@ -1,0 +1,26 @@
+Integration method was set to 'ballistic', since a default action step length was specified.
+***Starting server on port 8814 ***
+Loading net-file from '/home/paul/sumo_platform/testbed/traffic_simulation/new_osm.net.xml' ... done (1377ms).
+Loading additional-files from '/home/paul/sumo_platform/testbed/traffic_simulation/osm.poly.xml.gz' ... done (314ms).
+Loading additional-files from '/home/paul/sumo_platform/testbed/traffic_simulation/tls.xml' ... done (1ms).
+Loading additional-files from '/home/paul/sumo_platform/testbed/traffic_simulation/detectors.add.xml' ... done (154ms).
+Loading route-files incrementally from '/home/paul/sumo_platform/testbed/traffic_simulation/passenger.sampled.rou_micro.xml'
+Loading done.
+Simulation started with time: 0.00.
+Simulation ended at time: 15.00.
+Performance:
+ Duration: 26.98s
+ TraCI-Duration: 11.73s
+ Real time factor: 0.55605
+ UPS: 1.297450
+Vehicles:
+ Inserted: 5 (Loaded: 21)
+ Running: 5
+ Waiting: 9
+Statistics (avg of 0):
+ RouteLength: 0.00
+ Speed: 0.00
+ Duration: 0.00
+ WaitingTime: 0.00
+ TimeLoss: 0.00
+ DepartDelay: 0.00

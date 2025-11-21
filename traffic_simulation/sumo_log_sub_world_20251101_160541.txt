@@ -1,0 +1,27 @@
+***Starting server on port 8814 ***
+Loading net-file from '/home/paul/sumo_platform/testbed/traffic_simulation/new_osm.net.xml' ... done (1323ms).
+Loading additional-files from '/home/paul/sumo_platform/testbed/traffic_simulation/osm.poly.xml.gz' ... done (36ms).
+Loading additional-files from '/home/paul/sumo_platform/testbed/traffic_simulation/tls.xml' ... done (0ms).
+Loading additional-files from '/home/paul/sumo_platform/testbed/traffic_simulation/detectors.add.xml' ... done (181ms).
+Loading done.
+Simulation started with time: 0.00.
+Simulation ended at time: 193.00
+Performance: 
+ Duration: 203.34s
+ TraCI-Duration: 14.71s
+ Real time factor: 0.949154
+ UPS: 13.179961
+Vehicles: 
+ Inserted: 21
+ Running: 14
+ Waiting: 0
+Statistics (avg of 7):
+ RouteLength: 531.50
+ Speed: 3.60
+ Duration: 151.00
+ WaitingTime: 86.43
+ TimeLoss: 109.77
+ DepartDelay: 7.29
+
+AStarRouter answered 7 queries and explored 40.86 edges on average.
+AStarRouter spent 0.00s answering queries (0.14ms on average).

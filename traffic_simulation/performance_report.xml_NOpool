@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<PerformanceReport>
+    <MacroscopicSummary>
+        <RealTimeFactor>
+            <Unit>Steps_per_Second</Unit>
+            <Mean>0.5411</Mean>
+            <Median>0.5137</Median>
+            <Max>0.8760</Max>
+            <Min>0.4742</Min>
+        </RealTimeFactor>
+        <VehicleCount>
+            <Mean>2857.71</Mean>
+            <Max>3188</Max>
+        </VehicleCount>
+        <ReroutingOverallStats>
+            <TotalReroutesProcessed>0</TotalReroutesProcessed>
+            <AverageRequestsPerSimulationStep>0.0000</AverageRequestsPerSimulationStep>
+        </ReroutingOverallStats>
+    </MacroscopicSummary>
+    <MicroscopicSummary Unit="Milliseconds">
+        <T0_SUMO_Internal_Step>
+            <Mean>0.0466</Mean>
+            <StdDev>0.0075</StdDev>
+        </T0_SUMO_Internal_Step>
+        <T1_Collection_and_Dispatch>
+            <Mean>0.3766</Mean>
+            <StdDev>0.0066</StdDev>
+        </T1_Collection_and_Dispatch>
+        <T2_OBC_Sync_Wait>
+            <Mean>0.2034</Mean>
+            <StdDev>0.0137</StdDev>
+        </T2_OBC_Sync_Wait>
+        <T_Overhead>
+            <Mean>0.0294</Mean>
+            <StdDev>0.0030</StdDev>
+        </T_Overhead>
+        <Total_Per_Vehicle_Time>
+            <Mean>0.6560</Mean>
+        </Total_Per_Vehicle_Time>
+    </MicroscopicSummary>
+</PerformanceReport>

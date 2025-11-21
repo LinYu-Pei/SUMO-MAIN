@@ -1,0 +1,28 @@
+***Starting server on port 8814 ***
+Loading net-file from '/home/paul/sumo_platform/testbed/traffic_simulation/new_osm.net.xml' ... done (1362ms).
+Loading additional-files from '/home/paul/sumo_platform/testbed/traffic_simulation/osm.poly.xml.gz' ... done (36ms).
+Loading additional-files from '/home/paul/sumo_platform/testbed/traffic_simulation/tls.xml' ... done (0ms).
+Loading additional-files from '/home/paul/sumo_platform/testbed/traffic_simulation/detectors.add.xml' ... done (161ms).
+Loading done.
+Simulation started with time: 0.00.
+Simulation ended at time: 599.00
+Reason: TraCI requested termination.
+Performance: 
+ Duration: 422692.86s
+ TraCI-Duration: 40.92s
+ Real time factor: 0.0014171
+ UPS: 0.013840
+Vehicles: 
+ Inserted: 21
+ Running: 0
+ Waiting: 0
+Statistics (avg of 21):
+ RouteLength: 531.50
+ Speed: 2.28
+ Duration: 278.57
+ WaitingTime: 193.81
+ TimeLoss: 237.24
+ DepartDelay: 44.47
+
+AStarRouter answered 21 queries and explored 40.90 edges on average.
+AStarRouter spent 0.00s answering queries (0.05ms on average).

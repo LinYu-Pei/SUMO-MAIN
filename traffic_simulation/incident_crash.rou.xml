@@ -1,0 +1,34 @@
+<routes>
+    <vType id="PERSISTENT_DISASTER_CAR" 
+           vClass="passenger" 
+           color="0.96,0.30,0.52" 
+           sigma="1.0" 
+           lcStrategic="0" 
+           minGap="1.0"
+           collisionAction="warn" />
+
+    <flow id="disaster_stream_flow" 
+          type="PERSISTENT_DISASTER_CAR" 
+          begin="10" 
+          end="300" 
+          number="1000" 
+          arrivalPos="random">
+        <route edges="311359937#13 -552341336#3 462774155#0 311359937#15 311359937#17 172957263#2 -172957263#2"/>
+    </flow>
+    <flow id="disasterA_stream_flow" 
+          type="PERSISTENT_DISASTER_CAR" 
+          begin="11" 
+          end="300" 
+          number="1000" 
+          arrivalPos="random">
+        <route edges="311359937#13 -552341336#3 462774155#0 311359937#15 311359937#17 172957263#2 -172957263#2"/>
+    </flow>
+    <flow id="disasterB_stream_flow" 
+          type="PERSISTENT_DISASTER_CAR" 
+          begin="12" 
+          end="300" 
+          number="1000" 
+          arrivalPos="random">
+        <route edges="311359937#13 -552341336#3 462774155#0 311359937#15 311359937#17 172957263#2 -172957263#2"/>
+    </flow>
+</routes>

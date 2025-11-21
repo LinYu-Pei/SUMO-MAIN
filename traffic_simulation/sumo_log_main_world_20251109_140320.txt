@@ -1,0 +1,72 @@
+Integration method was set to 'ballistic', since a default action step length was specified.
+***Starting server on port 8813 ***
+Loading net-file from '/home/paul/sumo_platform/testbed/traffic_simulation/new_osm.net.xml' ... done (1284ms).
+Loading additional-files from '/home/paul/sumo_platform/testbed/traffic_simulation/osm.poly.xml.gz' ... done (185ms).
+Loading additional-files from '/home/paul/sumo_platform/testbed/traffic_simulation/tls.xml' ... done (0ms).
+Loading additional-files from '/home/paul/sumo_platform/testbed/traffic_simulation/detectors.add.xml' ... done (162ms).
+Loading done.
+Simulation started with time: 0.00.
+Simulation ended at time: 101.00
+Performance: 
+ Duration: 194.34s
+ TraCI-Duration: 144.99s
+ Real time factor: 0.519718
+ UPS: 647.327309
+Vehicles: 
+ Inserted: 1450 (Loaded: 4001)
+ Running: 1447
+ Waiting: 151
+Statistics (avg of 3):
+ RouteLength: 1471.66
+ Speed: 17.03
+ Duration: 79.33
+ WaitingTime: 5.33
+ TimeLoss: 22.75
+ DepartDelay: 1.50
+
+AStarRouter answered 1 queries and explored 7913.00 edges on average.
+AStarRouter spent 0.01s answering queries (12.00ms on average).
+AStarRouter answered 1 queries and explored 3302.00 edges on average.
+AStarRouter spent 0.01s answering queries (5.00ms on average).
+AStarRouter answered 2 queries and explored 943.00 edges on average.
+AStarRouter spent 0.00s answering queries (2.00ms on average).
+AStarRouter answered 1 queries and explored 7850.00 edges on average.
+AStarRouter spent 0.01s answering queries (13.00ms on average).
+AStarRouter answered 1 queries and explored 1639.00 edges on average.
+AStarRouter spent 0.00s answering queries (3.00ms on average).
+AStarRouter answered 6 queries and explored 414.50 edges on average.
+AStarRouter spent 0.00s answering queries (0.33ms on average).
+AStarRouter answered 1 queries and explored 4580.00 edges on average.
+AStarRouter spent 0.01s answering queries (7.00ms on average).
+AStarRouter answered 1 queries and explored 3273.00 edges on average.
+AStarRouter spent 0.01s answering queries (5.00ms on average).
+AStarRouter answered 4 queries and explored 3656.50 edges on average.
+AStarRouter spent 0.02s answering queries (5.00ms on average).
+AStarRouter answered 1 queries and explored 119.00 edges on average.
+AStarRouter spent 0.00s answering queries (0.00ms on average).
+AStarRouter answered 1 queries and explored 296.00 edges on average.
+AStarRouter spent 0.00s answering queries (0.00ms on average).
+AStarRouter answered 1 queries and explored 1302.00 edges on average.
+AStarRouter spent 0.00s answering queries (3.00ms on average).
+AStarRouter answered 1 queries and explored 258.00 edges on average.
+AStarRouter spent 0.00s answering queries (1.00ms on average).
+AStarRouter answered 1 queries and explored 644.00 edges on average.
+AStarRouter spent 0.00s answering queries (1.00ms on average).
+AStarRouter answered 6 queries and explored 2070.00 edges on average.
+AStarRouter spent 0.02s answering queries (2.50ms on average).
+AStarRouter answered 1 queries and explored 2167.00 edges on average.
+AStarRouter spent 0.00s answering queries (3.00ms on average).
+AStarRouter answered 1 queries and explored 367.00 edges on average.
+AStarRouter spent 0.00s answering queries (1.00ms on average).
+AStarRouter answered 2 queries and explored 537.00 edges on average.
+AStarRouter spent 0.00s answering queries (1.00ms on average).
+AStarRouter answered 1 queries and explored 3236.00 edges on average.
+AStarRouter spent 0.00s answering queries (4.00ms on average).
+AStarRouter answered 1 queries and explored 3869.00 edges on average.
+AStarRouter spent 0.01s answering queries (6.00ms on average).
+AStarRouter answered 1 queries and explored 970.00 edges on average.
+AStarRouter spent 0.00s answering queries (2.00ms on average).
+AStarRouter answered 2 queries and explored 8.00 edges on average.
+AStarRouter spent 0.00s answering queries (0.00ms on average).
+AStarRouter answered 1 queries and explored 3614.00 edges on average.
+AStarRouter spent 0.01s answering queries (6.00ms on average).

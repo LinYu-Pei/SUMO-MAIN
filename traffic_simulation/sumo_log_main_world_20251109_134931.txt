@@ -1,0 +1,40 @@
+Integration method was set to 'ballistic', since a default action step length was specified.
+***Starting server on port 8813 ***
+Loading net-file from '/home/paul/sumo_platform/testbed/traffic_simulation/new_osm.net.xml' ... done (1297ms).
+Loading additional-files from '/home/paul/sumo_platform/testbed/traffic_simulation/osm.poly.xml.gz' ... done (186ms).
+Loading additional-files from '/home/paul/sumo_platform/testbed/traffic_simulation/tls.xml' ... done (0ms).
+Loading additional-files from '/home/paul/sumo_platform/testbed/traffic_simulation/detectors.add.xml' ... done (156ms).
+Loading done.
+Simulation started with time: 0.00.
+Simulation ended at time: 36.00
+Performance: 
+ Duration: 75.13s
+ TraCI-Duration: 62.09s
+ Real time factor: 0.479144
+ UPS: 963.252323
+Vehicles: 
+ Inserted: 2748 (Loaded: 4001)
+ Running: 2748
+ Waiting: 1253
+Statistics (avg of 0):
+ RouteLength: 0.00
+ Speed: 0.00
+ Duration: 0.00
+ WaitingTime: 0.00
+ TimeLoss: 0.00
+ DepartDelay: 0.00
+
+AStarRouter answered 1 queries and explored 5670.00 edges on average.
+AStarRouter spent 0.01s answering queries (10.00ms on average).
+AStarRouter answered 1 queries and explored 3713.00 edges on average.
+AStarRouter spent 0.01s answering queries (5.00ms on average).
+AStarRouter answered 1 queries and explored 2817.00 edges on average.
+AStarRouter spent 0.00s answering queries (4.00ms on average).
+AStarRouter answered 1 queries and explored 1644.00 edges on average.
+AStarRouter spent 0.00s answering queries (2.00ms on average).
+AStarRouter answered 1 queries and explored 1585.00 edges on average.
+AStarRouter spent 0.00s answering queries (3.00ms on average).
+AStarRouter answered 1 queries and explored 4250.00 edges on average.
+AStarRouter spent 0.01s answering queries (5.00ms on average).
+AStarRouter answered 1 queries and explored 1535.00 edges on average.
+AStarRouter spent 0.00s answering queries (2.00ms on average).

@@ -1,0 +1,25 @@
+***Starting server on port 8814 ***
+Loading net-file from '/home/paul/sumo_platform/testbed/traffic_simulation/new_osm.net.xml' ... done (1308ms).
+Loading additional-files from '/home/paul/sumo_platform/testbed/traffic_simulation/osm.poly.xml.gz' ... done (33ms).
+Loading additional-files from '/home/paul/sumo_platform/testbed/traffic_simulation/tls.xml' ... done (0ms).
+Loading additional-files from '/home/paul/sumo_platform/testbed/traffic_simulation/detectors.add.xml' ... done (154ms).
+Loading done.
+Simulation started with time: 0.00.
+Simulation ended at time: 10.00
+Performance: 
+ Duration: 12.92s
+ TraCI-Duration: 6.27s
+ Real time factor: 0.773874
+ UPS: 717.381210
+Vehicles: 
+ Inserted: 1798 (Loaded: 4001)
+ Running: 1798
+ Waiting: 2203
+Statistics (avg of 0):
+ RouteLength: 0.00
+ Speed: 0.00
+ Duration: 0.00
+ WaitingTime: 0.00
+ TimeLoss: 0.00
+ DepartDelay: 0.00
+

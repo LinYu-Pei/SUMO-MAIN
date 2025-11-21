@@ -1,0 +1,13 @@
+junction id 618881031, type = traffic light
+junction id 618880984, type = traffic light
+junction id 2562348435, type = traffic light
+junction id 2499039235, type = traffic light
+junction id 7722061749, type = priority
+junction id 7722061750, type = priority
+junction id 4463430837, type = traffic light
+junction id 442790073#3-AddedOnRampNode, type = priority
+junction id 7722099653, type = priority
+junction id 4463430844, type = traffic light
+junction id 7722061753, type = priority
+
+

@@ -1,0 +1,13 @@
+sumo_env/
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+*.log
+*.xml
+!*.rou.xml
+!*.add.xml
+!moti.xml
+.DS_Store
+.env
